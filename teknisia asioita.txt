@@ -1,0 +1,41 @@
+aakkoset 
+
+A:sta Z:n ovat joko inputteja tai outputteja
+
+
+listataan
+
+A=0
+B=1
+C=1
+D=?
+E
+....
+
+A:n arvo 0
+B:n arvo 1
+C on outputti(eli defauttina 0) (tämän arvo printataan) consoliin
+E ei ole käytössä, arvo 0 (bugien varalta) ei printata, jos esiintyy niin laitetaan error message.
+
+
+
+
+A-----------\
+B-----------|------D
+C-----------/
+
+
+Voisi olla hyvä laittaa erillinen ja portti 2:lle ja 3:lle . Erillinen tai portii 2:lle tai 3:lle
+
+'-' laittaa  (1 jos oli 1) saman arvon x++ koordinaatin omaavaan node:n inputiksi
+'\' y-- nodeen inputiksi
+'/' y++ nodeen inputiksi
+'|' or ( jos on yhdistetty useampiin'-' '/' '\' merkkejä täytyy odottaa,että näille on asetettu arvo
+'*' and ( jos on yhdistetty useampiin'-' '/' '\' merkkejä täytyy odottaa,että näille on asetettu arvo
+'!' negaatio (voi olla vain yksi input
+' ' merkeillä on inputti, mutta arvo on 0 ja eivät laita inputtia millekkään viereiselle solulle
+jokaisella on arvo (0 tai 1)
+Jokaisella on input()
+ 
+kysymysmerkillä merkityt, eivät voi asettaa inputteja.
+koordinaatit ovat tuple

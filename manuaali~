@@ -12,5 +12,5 @@ Jos pieni kirjain on asetettu tiedostoon, mutta kyseinen solu ei saa arvoa, täs
 esimerkki ajo
 
 python test.py - 0 - esimerkki
-0 tai 1 kertoo ajetaanko myös kaikki mahdolliset inputtien arvot, jos ei ajeta kaikkia mahdollisia inputteja, käytetään tekstiedostossa olevia inputtejen arvoja. Toinen arvo kertoo ajettavan tiedoston nimen.
+0 tai 1 kertoo ajetaanko myös kaikki mahdolliset inputtien arvot, jos ei ajeta kaikkia mahdollisia inputteja, käytetään tekstiedostossa olevia inputtejen arvoja.
 

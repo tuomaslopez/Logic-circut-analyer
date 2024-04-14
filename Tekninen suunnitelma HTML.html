@@ -1,0 +1,97 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=windows-1252">
+	<TITLE></TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice.org 3.3  (Win32)">
+	<META NAME="AUTHOR" CONTENT="tlopez">
+	<META NAME="CREATED" CONTENT="20130221;19510000">
+	<META NAME="CHANGEDBY" CONTENT="tlopez">
+	<META NAME="CHANGED" CONTENT="20130221;20310000">
+	<META NAME="AppVersion" CONTENT="12.0000">
+	<META NAME="DocSecurity" CONTENT="0">
+	<META NAME="HyperlinksChanged" CONTENT="false">
+	<META NAME="LinksUpToDate" CONTENT="false">
+	<META NAME="ScaleCrop" CONTENT="false">
+	<META NAME="ShareDoc" CONTENT="false">
+	<STYLE TYPE="text/css">
+	<!--
+		@page { margin-left: 2cm; margin-right: 2cm; margin-top: 2.5cm; margin-bottom: 2.5cm }
+		P { margin-bottom: 0.21cm; direction: ltr; color: #000000; widows: 2; orphans: 2 }
+		A:link { color: #0000ff; so-language: zxx }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="fi-FI" TEXT="#000000" LINK="#0000ff" DIR="LTR">
+<P STYLE="margin-bottom: 0cm">Tekninen suunnitelma</P>
+<P STYLE="margin-bottom: 0cm">1</P>
+<P STYLE="margin-bottom: 0cm">Yksi metodi lukemiseen ja yksi
+selvitt&auml;m&auml;&auml;n yksitt&auml;isten kohtien arvot.
+Sanakirja selvitt&auml;m&auml;&auml;n solu olennot tuplen
+perusteella. Yksitt&auml;inen solulla on int arvo 0 tai 1, kirjain,
+jossa suuri kirjain tarkoittaa inputtia ja pieni outputtia, muita
+kirjaimia ovat &rsquo;\&rsquo; ylempi liittyy alenpaan. &rsquo;/&rsquo;
+alempi liittyy ylemp&auml;&auml;n, &rsquo;-&rsquo; signaali tutkii
+arvon -1 x:n suunnassa. Loogisia operaatioita kuvaavat &rsquo;!&rsquo;
+not, &rsquo;&amp; &rsquo; and &rsquo;|&rsquo; or. Lis&auml;ksi
+jokaisella solulla on tuple, joka kertoo koordinaatit.</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">main ---<FONT FACE="Wingdings, serif">&#61664;</FONT>
+reader  -<FONT FACE="Wingdings, serif">&#61664;</FONT> processor <FONT FACE="Wingdings, serif">&#61664;</FONT>
+(loopi n&auml;ytt&auml;m&auml;&auml;n kaikki mahdolliset kombot)</P>
+<P STYLE="margin-bottom: 0cm">2 
+</P>
+<P STYLE="margin-bottom: 0cm">K&auml;ytt&auml;j&auml;n t&auml;ytyy
+vain nimet&auml; tiedosto, jonka h&auml;n haluaa prosessoida
+tietynlaiseksi ja ajaa ohjelma. Ensimm&auml;isen&auml; aktivoituu
+main, jossa luodaan sanakirja ja avataan tiedosto, sitten metodi
+lukemaan tiedosto. T&auml;m&auml;n j&auml;lkeen aktivoituu yksi
+metodi looppamaan materiaalin l&auml;pi.773. Jos lokiikka on and niin
+yksikin 0 riitt&auml;&auml; laittamaan t&auml;m&auml;n arvon 0:ksi.
+Tai piiriss&auml; yksiin arvon ollessa 1 piiri lokiikka arvon 1. Not
+komponentissa 1 muuttuu 0:ksi ja toisin p&auml;in.</P>
+<P STYLE="margin-bottom: 0cm">3</P>
+<P STYLE="margin-top: 0.42cm; margin-bottom: 0cm">Aloitetaan x= 1 y=
+0:ssa ja menn&auml;&auml;n alasp&auml;in y:n suunnassa kunnes
+aakkoset loppuvat. en tied&auml; algoritmia kaikkien input 
+kombinaatioiden saamiseen.</P>
+<P STYLE="margin-top: 0.42cm; margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-top: 0.42cm; margin-bottom: 0cm">T&auml;rke&auml;t&auml;
+on k&auml;ytt&auml;&auml; sanakirjaa esitt&auml;m&auml;&auml;n
+kaavion yksitt&auml;isi&auml; komponentteja. Sanakirjaa on pakko
+k&auml;ytt&auml;&auml; sill&auml; ei voida tiet&auml;&auml;
+komponenttienlukum&auml;&auml;r&auml;&auml; etuk&auml;teen. Seuraava
+looppi esitett&auml;&auml;n vektorina, uutteen vektoriin lis&auml;t&auml;&auml;n
+uusia soluja siin&auml; tapauksessa, ett&auml; k&auml;sitelt&auml;v&auml;ss&auml;
+solussa on &rsquo;-&rsquo;, &rsquo;/&rsquo;, &rsquo;\&rsquo;, &rsquo;|&rsquo;,&rsquo;
+!&rsquo;-merkki.</P>
+<P STYLE="margin-top: 0.42cm; margin-bottom: 0cm">Omatekem&auml;
+linkkeihin perustuva tietorakenne olisi mahdollinen. 
+</P>
+<P STYLE="margin-top: 0.42cm; margin-bottom: 0cm">5</P>
+<P STYLE="margin-top: 0.42cm; margin-bottom: 0cm">25.2 5 h, demon
+koodaus.</P>
+<P STYLE="margin-top: 0.42cm; margin-bottom: 0cm">28.2 5 h,  koodin
+valmistaminen.</P>
+<P STYLE="margin-top: 0.42cm; margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-top: 0.42cm; margin-bottom: 0cm">6</P>
+<P STYLE="margin-top: 0.42cm; margin-bottom: 0cm">Testausta
+erilaisilla tiedostoila, yksi mahdollinen bugi saattaa olla &rsquo;.&rsquo;
+komponentti, koska t&auml;m&auml;n arvo perustuu vieress&auml;,
+ylh&auml;ll&auml; ja alhaalla olevien komponenttien arvoihin.
+Ylh&auml;&auml;ll&auml; tai alhaalla luultavasti ei kuitenkaan ole
+mit&auml;&auml;n.</P>
+<P STYLE="margin-top: 0.42cm; margin-bottom: 0cm">7.</P>
+<P STYLE="margin-top: 0.42cm; margin-bottom: 0cm"><SPAN LANG="en-US">Wikipedia
+NOT <A HREF="http://en.wikipedia.org/wiki/Negation">http://en.wikipedia.org/wiki/Negation</A>.</SPAN></P>
+<P STYLE="margin-top: 0.42cm; margin-bottom: 0cm"><SPAN LANG="en-US">Wikipedia
+AND <A HREF="http://en.wikipedia.org/wiki/AND_gate">http://en.wikipedia.org/wiki/AND_gate</A>.</SPAN></P>
+<P STYLE="margin-top: 0.42cm; margin-bottom: 0cm"><SPAN LANG="en-US">Wikipedia
+OR http://en.wikipedia.org/wiki/Or_gate.</SPAN></P>
+<P STYLE="margin-top: 0.42cm; margin-bottom: 0cm"><BR>
+</P>
+</BODY>
+</HTML>
